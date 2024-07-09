@@ -7,3 +7,27 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+/* <<<<<nav style>>>> */
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-weight: 800;
+padding: 20px 120px;
+}
+nav h3{
+color: rgb(36, 13, 121);
+font-size: 30px;
+}
+.span-design{
+color: orange
+}
+.download-btn{
+color: rgb(36, 13, 121);
+border: 2px solid rgb(36, 13, 121);
+border-radius: 5px;
+padding: 18px 35px;
+font-size: 20px;
+font-weight: 600;
+background-color: orange
+}
