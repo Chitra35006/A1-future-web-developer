@@ -53,10 +53,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
-.banner-content a{
+.btn-a{
 text-decoration: none;
 color: orange;
-  
 }
 .banner-image{
 width: 240.28px;
