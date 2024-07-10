@@ -133,6 +133,7 @@ color: rgb(13, 19, 33);
 font-size: 16px;
 font-weight: 400;
 margin-bottom: 20px;
+opacity: 0.7;
 }
 .btn-ln-more{
 margin-top:20px ;
@@ -182,8 +183,9 @@ border-radius: 16px;
 margin: 0 auto;
 max-width: 1140px;
 min-height: 460px;
-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+box-shadow: 0 6px 6px rgba(0, 0.6, 0, 0.2);
 background-color: transparent;
+margin-bottom: 60px;
 }
 .first-target-section{
 text-align: center;
@@ -228,4 +230,97 @@ box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 color: rgb(13, 19, 33);
 font-size: 16px;
 font-weight: 700;
+}
+/* <<<<<<<next target style>>>>>>> */
+.next-target-container{
+max-width: 1140px;
+height: 800px;
+margin: 0 auto;
+}
+.target-text-content{
+margin-top: 100px;
+text-align: center;
+}
+.first-div-text-content a{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+}
+.first-div-text-content {
+width: 90%;
+}
+.image-first-div{
+display: flex;
+justify-content: space-between;
+padding: 30px;
+box-sizing: border-box;
+margin-top: 20px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+}
+.image-first-div img{
+padding: 20px;
+width: 10%;
+}
+/* <<<<<<<feedback style>>>>>>> */
+.feedback-container{
+margin: 0 auto;
+width: 1140px;
+height: 313px;
+background-image: linear-gradient(90deg, rgb(16,16,16)-19.5%,rgba(16,16,16,0)100%), url('../assets/handshake.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin-bottom: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.feedback-content{
+text-align: center;
+}
+.feedback-content h1{
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.feedback-content p{
+color: rgb(255, 255, 255);
+font-size: 16px;
+opacity: 0.7;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.input-section{
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.feedback-field{
+padding: 19px 20px 19px 20px;
+width: 500px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+margin-right: 10px;
+}
+.submit-btn{
+width: 120px;
+height: 57px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+font-family: Azeret Mono;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
 }
