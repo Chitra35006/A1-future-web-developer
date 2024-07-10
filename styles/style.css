@@ -331,29 +331,27 @@ font-weight: 600;
 /* <<<<<<footer styles>>>>>> */
 .footer-container{
 max-width: 1440px;
-min-height: 200px;
+min-height: 100px;
 margin: 0 auto;
-background-color: rgb(1, 1, 34);
-padding: 20px;
+background-color: rgb(235, 235, 245);
 
 }
 .footer-div{
-padding: 20px;
 display: flex;
-justify-content: space-evenly;
+justify-content: space-between;
+padding: 10px;
 }
 .icon-div{
-background-color: rgb(193, 224, 253);
 height: 50px;
 padding: 15px;
 }
 .information-n{
-color: rgb(193, 224, 253);
+color: rgb(15, 18, 20);
 font-size: 20px;
 font-weight: 700;
 }
 .information-p{
-color: rgb(255, 255, 255);
+color: rgb(8, 7, 7);
 font-size: 16px;
 font-weight: 400;
 }
